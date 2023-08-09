@@ -15,7 +15,7 @@ Users should be able to:
 
 ## Links
 
--Solution URL: [Solution URL](https://github.com/Kanakjyoti/Testimonial-template-project.git)
+-Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/testimonial-using-html-and-css-7yN4CPCJdw)
 -Live Site URL: [Live site URL](https://kanakjyoti.github.io/Testimonial-template-project/)
 ## Built with
 
