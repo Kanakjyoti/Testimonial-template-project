@@ -15,8 +15,8 @@ Users should be able to:
 
 ## Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+-Solution URL: [Solution URL](https://github.com/Kanakjyoti/Testimonial-template-project.git)
+-Live Site URL: [Live site URL](https://kanakjyoti.github.io/Testimonial-template-project/)
 ## Built with
 
 - Semantic HTML5 markup
