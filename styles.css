@@ -1,0 +1,117 @@
+body{
+    background-color:  hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    padding: 0;
+    margin: 0;
+    width: 1440px;
+
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    gap:25px;
+    width: 75%;
+  }
+  
+  .item{
+    padding: 25px;
+    border-radius: 10px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+  }
+
+  .Daniel{
+    grid-column: span 2;
+    background-color: hsl(263, 55%, 52%);
+    position: relative;
+  }
+
+  .Jonathan{
+    background-color: hsl(217, 19%, 35%);
+
+  }
+  .Jeanette{
+    background-color: hsl(0, 0%, 100%);
+
+  }
+  .Patrick{
+    grid-column: span 2;
+    background-color: hsl(219, 29%, 14%);
+
+  }
+  .Kira{
+    grid-area: 1/4/3/5;
+    background-color: hsl(0, 0%, 100%);
+
+  }
+  .dp{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin: 5px 20px 0 0 ;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+
+  .Daniel , .Jonathan, .Patrick{
+    color: hsl(0, 0%, 100%) ;
+  }
+  .feed{
+    font-size: large;
+    font-weight: 600;
+    padding: 0;
+  }
+
+  .about{
+    opacity: 0.7;
+    margin: 0;
+  }
+  .Verified{
+    opacity: 0.5;
+  }
+  .mark{
+    position: absolute;
+    top: 0;
+    right: 90px;
+  }
+
+  #markfeed{
+    position: relative;
+    z-index: 1 ;
+  }
+
+  @media(max-width:375px){
+
+    body{
+      width: 100%;
+      margin: 0;
+      
+    }
+    .container{
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      gap:20px;
+    }
+
+    .intro{
+      position: relative;
+      z-index: 1;
+    }
+
+    .mark{
+      position: absolute;
+      top: 0;
+      right: 20px;
+    }
+    .dp{
+      height: 25px;
+      width: 25px;
+      margin: 15px 10px 0 0;
+    }
+  }
